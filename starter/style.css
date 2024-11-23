@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+/* LAYOUT */
+header {
+  position: absolute;
+  top: -8%;
+  left: -50%;
+  height: 50%;
+  width: 100%;
+  height: 35vh;
+  
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.message {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  height: 1rem;
+  position: absolute;
+  top:72%;
+}
+.label-score {
+  font-size: 4rem;
+  position: absolute;
+  top:25%;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 28%;
+  left: 50%;
+
+}
+.moneyAgain {
+  border-radius: 100%;
+  opacity: 0; 
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  width: 20rem;
+}
+.moneyFace {
+  position: fixed;
+  top:40%;
+  left: 40.5%;
+  width: 20rem;
+  border-radius: 100%;
+  background-color: transparent;
+}
+.moneySeal {
+  border-radius: 100%;
+  position: fixed;
+  top: 40%;
+  left: 40.5%;
+  width: 20rem;
+}
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+ position: absolute;
+ top:85%;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 767px) {
+  header {
+    position: absolute;
+    top: -8%;
+    left: -50%;
+    height: 50%;
+    width: 100%;
+
+  }
+  main {
+  
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .message {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    height: 1rem;
+    position: absolute;
+    top:72%;
+  }
+  .label-score {
+    font-size: 3rem;
+    position: absolute;
+    top:25%;
+    left: 4%;
+  }
+  
+  /* ELEMENTS STYLE */
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 28%;
+    left: 50%;
+  
+  }
+  .moneyAgain {
+    border-radius: 100%;
+    opacity: 0; 
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    width: 20rem;
+  }
+  .moneyFace {
+    position: fixed;
+    top:40%;
+    left: 25%;
+    width: 20rem;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+  .moneySeal {
+    border-radius: 100%;
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    width: 20rem;
+  }
+  
+  .btn {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+   position: absolute;
+   top:85%;
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+  }
+}
